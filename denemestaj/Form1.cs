@@ -19,17 +19,6 @@ namespace denemestaj
         {
             InitializeComponent();
         }
-
-        public KurBilgileri XmlBilgileriOlustur(string xmlIcerigi)
-        {
-            XmlDocument doc = new XmlDocument();
-            doc.LoadXml(xmlIcerigi);
-
-            KurBilgileri kurlar = new KurBilgileri();
-
-            return kurlar;
-        }
-
         private void button1_Click(object sender, EventArgs e)
         {
             try
